@@ -18,19 +18,20 @@
         </nav>
        </header> 
     <main>
-        <article>
-            <h2>History</h2>
-            <p>History</p>
-        </article>
-        <article>
-            <h2>Mission</h2>
-            <p>Mission</p>
-        </article>
-        <article>
-            <h2>Past Speakers</h2>
-            <p>Past Speakers</p>
-            <img src="http://www.w3.org/pics/images/" alt="past speackers" /> 
-        </article>
+      <form method="post" action="https://github.com/">
+        <label for="attendee">Attendee Name:</label><br>
+        <input type="text" id="attendee" name="attendee" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="checkbox">Agree terms and condition:</label><br>
+        <input type="checkbox" id="checkbox" name=",checkbox" required><br>
+        <button type="submit">Register Now</button>
+      </form>
     </main>
     <footer>
         <p>&copyright; 2024 TechCon. All rights reserved.</p>
